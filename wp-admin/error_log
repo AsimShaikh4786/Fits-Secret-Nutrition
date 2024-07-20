@@ -1,0 +1,267 @@
+[12-Jul-2024 07:09:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /home1/fitsexxh/public_html/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Blonwe Core')
+#1 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Blonwe Core')
+#2 /home1/fitsexxh/public_html/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(3363): TGMPA_Bulk_Installer->run(Array)
+#5 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /home1/fitsexxh/public_html/wp-admin/themes.php(10): require_once('/home1/fitsexxh...')
+#12 {main}
+  thrown in /home1/fitsexxh/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[12-Jul-2024 07:11:03 UTC] PHP Fatal error:  Uncaught ArgumentCountError: 3 arguments are required, 2 given in /home1/fitsexxh/public_html/wp-admin/includes/class-bulk-upgrader-skin.php:162
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-admin/includes/class-bulk-upgrader-skin.php(162): sprintf('%1$s installed ...', 'Elementor')
+#1 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Elementor')
+#2 /home1/fitsexxh/public_html/wp-admin/includes/class-wp-upgrader.php(921): TGMPA_Bulk_Installer_Skin->after()
+#3 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(3363): TGMPA_Bulk_Installer->run(Array)
+#5 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): TGM_Plugin_Activation->install_plugins_page('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin.php(259): do_action('appearance_page...')
+#11 /home1/fitsexxh/public_html/wp-admin/themes.php(10): require_once('/home1/fitsexxh...')
+#12 {main}
+  thrown in /home1/fitsexxh/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[12-Jul-2024 07:12:09 UTC] PHP Warning:  Attempt to read property "public" on null in /home1/fitsexxh/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 544
+[12-Jul-2024 07:36:47 UTC] PHP Warning:  Attempt to read property "ID" on null in /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/merlin/setup-wizard.php on line 203
+[12-Jul-2024 07:36:47 UTC] PHP Warning:  Attempt to read property "ID" on null in /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/merlin/setup-wizard.php on line 204
+[12-Jul-2024 07:48:20 UTC] PHP Warning:  Undefined array key "selected_cat" in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/woocommerce-filter/ajax-search/ajax-search.php on line 45
+[12-Jul-2024 08:07:43 UTC] PHP Warning:  Undefined array key "_klb_product_percentage_check" in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/woocommerce-filter/product-badge/product-badge.php on line 105
+[12-Jul-2024 08:23:59 UTC] PHP Warning:  Undefined property: stdClass::$browse in /home1/fitsexxh/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-marketplace/includes/Themes.php on line 169
+[12-Jul-2024 08:23:59 UTC] PHP Warning:  Undefined property: stdClass::$browse in /home1/fitsexxh/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/newfold-labs/wp-module-marketplace/includes/Themes.php on line 198
+[12-Jul-2024 08:29:19 UTC] PHP Warning:  Attempt to read property "ID" on null in /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/merlin/setup-wizard.php on line 203
+[12-Jul-2024 08:29:19 UTC] PHP Warning:  Attempt to read property "ID" on null in /home1/fitsexxh/public_html/wp-content/themes/blonwe/includes/merlin/setup-wizard.php on line 204
+[12-Jul-2024 12:11:45 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:26 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:42 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:44 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:47 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:48 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:49 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:51 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:51 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:52 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:53 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:55 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:56 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[12-Jul-2024 12:12:57 UTC] PHP Fatal error:  Uncaught TypeError: reset(): Argument #1 ($array) must be of type array, string given in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php:415
+Stack trace:
+#0 /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php(415): reset('')
+#1 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): Elementor\Blonwe_Product_Tab_Carousel_Widget->render()
+#2 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(635): Elementor\Controls_Stack->render_by_mode()
+#3 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/base/document.php(379): Elementor\Widget_Base->render_content()
+#4 /home1/fitsexxh/public_html/wp-content/plugins/elementor/includes/managers/widgets.php(461): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home1/fitsexxh/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home1/fitsexxh/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /home1/fitsexxh/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home1/fitsexxh/public_html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-tab-carousel.php on line 415
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "slug" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "name" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "slug" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "name" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 143
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 143
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "slug" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "name" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "slug" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "name" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 136
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 143
+[20-Jul-2024 10:12:59 UTC] PHP Warning:  Attempt to read property "term_id" on array in /home1/fitsexxh/public_html/wp-content/plugins/blonwe-core/elementor/widgets/blonwe-product-search.php on line 143

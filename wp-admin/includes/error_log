@@ -1,0 +1,4 @@
+[19-Jul-2024 20:03:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/fitsexxh/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/fitsexxh/public_html/wp-admin/includes/admin.php on line 16

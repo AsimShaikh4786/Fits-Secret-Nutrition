@@ -1,0 +1,20 @@
+[14-Jul-2024 06:19:01 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/fitsexxh/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/fitsexxh/public_html/wp-includes/blocks/index.php on line 8
+[16-Jul-2024 00:38:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/fitsexxh/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/fitsexxh/public_html/wp-includes/blocks/index.php on line 8
+[16-Jul-2024 20:25:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/fitsexxh/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/fitsexxh/public_html/wp-includes/blocks/index.php on line 8
+[17-Jul-2024 07:49:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/fitsexxh/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/fitsexxh/public_html/wp-includes/blocks/index.php on line 8
+[19-Jul-2024 20:01:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/fitsexxh/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/fitsexxh/public_html/wp-includes/blocks/index.php on line 8
